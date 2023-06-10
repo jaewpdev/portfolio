@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .h1 {
+        @apply text-[102px] font-bold leading-[91.8px];
+    }
+    .h2 {
+        @apply text-[40px] font-medium leading-[44px];
+    }
+    .h3 {
+        @apply text-[18px] font-medium leading-[24px]
+    }
+}
